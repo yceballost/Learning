@@ -23,6 +23,7 @@ if (selection.length > 1) {
 var document = require('sketch/dom');
 var sketch = context.api();
 var doc = context.document;
+
 var selection = context.selection;
 var layer = selection.firstObject();
 
@@ -31,11 +32,14 @@ if (selection.length > 1) {
   }else{
     if (layer) {
     console.log(layer.name());
-    console.log(layer.name());
+    console.log(layer.style());
     console.log(layer.name());
     }else{
     console.log("Please select a layer!");
   }
 }
+
+
+
 
 // v3
