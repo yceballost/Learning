@@ -20,7 +20,6 @@ if (selection.length > 1) {
 
 
 
-var document = require('sketch/dom');
 var sketch = context.api();
 var doc = context.document;
 
@@ -38,6 +37,9 @@ if (selection.length > 1) {
     console.log("Please select a layer!");
   }
 }
+
+
+
 
 
 
